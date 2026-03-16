@@ -64,6 +64,17 @@ src/test/java
     - MortgageServiceTest
   - validation
     - ValidationTest
+To make the assignment production ready, need to consider below enhancements further -
+  - Environment specific profiles
+  - Database table for storing interest rate for various terms
+  - Caching the interest rate
+  - Observability and monitoring to improve MTTD and MMTR
+  - API authentication using JWT/OAUTH2
+  - Rate limiting
+  - Resilience using Retry, Circuit breaker, Timeout
+  - Test improvements by adding contract and performance tests
+  - Golden template for CICD automation
+  - Further extension for business functionality considering different mortgage types
 
 
 
